@@ -9,6 +9,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #BBD0FF;
+    font-family: Sansation;
 }
 
 .container {
@@ -17,20 +18,19 @@ body {
     border-radius: 1rem;
     min-height: 60vh;
     width: 50vh;
-    box-shadow: 0 0 0.5vmax #616ec09c;
+    box-shadow: 0 0 1vmax #616ec09c;
 }
 
 form {
     margin: 2rem 0 1rem 0;
 }
 
-form select,
-button,
-input {
+form select, button, input {
     width: 100%;
     border: none;
     outline: none;
     border-radius: 0.75rem;
+    font-family: Sansation;
 }
 
 form input {
